@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Model checkpoints (too large for GitHub)
+models/
+*.bin
+*.safetensors
+
+# Processed data (generated, not source)
+data/processed/
+
+# Raw data (too large)
+data/raw/
+data/raw_full/
+
+# System files
+.DS_Store
+*.swp
